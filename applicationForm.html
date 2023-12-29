@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+    <fieldset>
+        <legend>Application Form</legend>
+    <table>
+        <tbody>
+            <form>
+                <tr>
+                    <td><label for="">Full Name</label></td>
+                    <td><input type="text" autofocus required maxlength="40" placeholder="Complete full name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email Address</label></td>
+                    <td><input type="email" required placeholder="Ex. abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password"required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Contact Number</label></td>
+                    <td><input type="number"required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Profile photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="date"required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="gender"> <label for="">Male</label>
+                        <input type="radio" name="gender"> <label for="">Female</label>
+                        <input type="radio" name="gender"> <label for="">Transgender</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Maritial Status</label></td>
+                    <td><input type="radio" name="Mstatus"> <label for="">Yes</label>
+                        <input type="radio" name="Mstatus"> <label for="">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Known Tools and Technology</label></td>
+                    <td>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">Angular</label>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">React</label>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">Python</label>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">Java</label>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">Jenkin</label>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">GIT</label>
+                        <input type="checkbox" name="" id="" />
+                        <label for="">Database</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Designation</label></td>
+                    <td><select>
+                        <option value="UI Developer">UI Developer</option>
+                        <option value="Backend Developer">Backend Developer</option>
+                        <option value="Full stack Developer">Full stack Developer</option>
+                        <option value="DevOps Engineer">DevOps Engineer</option>
+                        <option value="Tester">Tester</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Country</label></td>
+                    <td><input type="text" value="India" readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="">Present Address</label></td>
+                    <td><textarea name="" id="" cols="30" rows="7"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="reset">Clear</button></td>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </form>
+        </tbody>
+    </table>
+    </fieldset>
+</body>
+</html>

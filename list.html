@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        .hobbies{
+            list-style-type: upper-roman;
+        }
+        #techStack{
+            list-style-type:square;
+        }
+        .uiBackendTechStack{
+            list-style-type:none;
+        }
+        .mainItem::before{
+            content: "👉";
+        }
+    </style>
+</head>
+<body>
+    <h2>My Hobbies</h2>
+    <ol class="hobbies">
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Gaming</li>
+        <li> <mark>Traveling</mark></li>
+    </ol>
+    <hr>
+    <h2>My Technology Stack </h2>
+        <ul id="techStack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>Bootstrap</li>
+            <li>TypeScript</li>
+            <li>Angular</li>
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>ORM Tools: Hibernate and JPA</li>
+            <li>Microservices</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+        </ul>
+        <hr>
+        <h2>My Technology Stack- UI and Backend along with DB</h2>
+        <ol class="uiBackendTechStack">
+            <li class="mainItem">UI Technology
+                <ul >
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Angular</li>
+                    <li>Bootstrap</li>
+                    <li>NodeJs</li>
+                </ul>
+            </li>
+            <li class="mainItem">Backend Technology
+                <ul>
+                    <li>Hibernet</li>
+                    <li>Spring Boot</li>
+
+                </ul>
+            </li>
+            <li class="mainItem">Database</li>
+                <ol>
+                    <li>Oracle</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ol>
+
+
+        </ol>
+</body>
+</html>
